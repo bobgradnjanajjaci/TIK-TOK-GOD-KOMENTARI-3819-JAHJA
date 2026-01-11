@@ -7,25 +7,23 @@ app = Flask(__name__)
 # 🔧 KONFIGURACIJA – OVO POPUNI
 # Ako ti je panel drugi, samo promijeni URL, API KEY i SERVICE_ID.
 PANEL_URL = "https://godofpanel.com/api/v2"  # ili tvoj tačni JAP domen
-API_KEY = "f82ab8846492a0842480a8a6eb154e59"
+API_KEY = "fe121b1f2fda9679f5c5763a4a247221"
 SERVICE_ID = 3819  # TikTok Custom Comments na JAP-u
 
 # 🔁 LISTE KOMENTARA – TVOJE LISTE
 
 # ✅ COMMENTS_SET_1 = PRVI BLOK koji si poslao
 COMMENTS_SET_1 = [
-   "If you read only one book this year, let it be Encrypted Money Code by Ethan Rothwell. It will transform your life.",
-"I'm telling you, book called Encrypted Money Code by Ethan Rothwell is on another level. You HAVE to experience it. It will change your life.",
-"You have no idea how POWERFUL Encrypted Money Code by Ethan Rothwell is. Read it, it changed my life.",
-"Just trust me, Encrypted Money Code by Ethan Rothwell is the book you NEED right now. It changed my life.",
-"If you’re looking for a book that truly changes everything, Encrypted Money Code by Ethan Rothwell is it. It will change your life.",
-"I can’t even explain it, book called Encrypted Money Code by Ethan Rothwell is different. You NEED this book. It changed my life.",
-"You won’t understand until you read Encrypted Money Code by Ethan Rothwell. It’s a MUST-read. It will change your life.",
-"I spent so much time struggling on the internet, searching for something that would change my life. All I can say is I finally found it. Encrypted Money Code by Ethan Rothwell is an absolute game-changer. This book is like nothing I've ever seen before.",
-"I honestly don’t know where else to say this, but I have to share it here. I found something truly mind-blowing. The book Encrypted Money Code by Ethan Rothwell is on a whole different level, especially for anyone chasing success.",
-"No more gatekeeping just go and read the book Encrypted Money Code by Ethan Rothwell and thank me later for changing your life.",
-"I used to think making money online was too hard for someone who didn’t know much about it, but this book really worked for me. It’s called Encrypted Money Code by Ethan Rothwell. It helped me succeed and start making money, ngl everyone should read it.",
-"Encrypted Money Code by Ethan Rothwell is the only book I’ve read that actually made me feel dangerous. Page 13 is not normal."
+   "If you’re serious about making real changes, Five Foundations of Wealth by Samuel Brooks is a must-read. trust me, it will CHANGE your life.",
+"If I could gift every confused version of myself one thing, it would be Five Foundations of Wealth by Samuel Brooks. no questions asked.",
+"It’s unreal how close I came to skipping Five Foundations of Wealth by Samuel Brooks. this isn’t just another book. it genuinely feels like it wasn’t written for everyone.",
+"If I could go back in time, I’d tell myself to read Five Foundations of Wealth by Samuel Brooks years ago. would’ve saved me so much wasted time.",
+"I didn’t realize how off track I was until I read Five Foundations of Wealth by Samuel Brooks. looking back, a lot of things make sense now.",
+"If you’re serious about making real changes, Five Foundations of Wealth by Samuel Brooks is a must-read. trust me, it will CHANGE your life.",
+"If I could gift every confused version of myself one thing, it would be Five Foundations of Wealth by Samuel Brooks. no questions asked.",
+"It’s unreal how close I came to skipping Five Foundations of Wealth by Samuel Brooks. this isn’t just another book. it genuinely feels like it wasn’t written for everyone.",
+"If I could go back in time, I’d tell myself to read Five Foundations of Wealth by Samuel Brooks years ago. would’ve saved me so much wasted time.",
+"I didn’t realize how off track I was until I read Five Foundations of Wealth by Samuel Brooks. looking back, a lot of things make sense now."
 ]
 
 
@@ -344,6 +342,7 @@ import os
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))  # Railway postavi PORT (kod tebe će biti 8880)
     app.run(host="0.0.0.0", port=port)
+
 
 
 
